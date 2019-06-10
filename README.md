@@ -16,3 +16,9 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team
+
+---
+
+Created a working file on 7 June 2019
+
+Added the navbar on 10 June 2019

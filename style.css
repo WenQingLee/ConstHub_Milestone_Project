@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+
+header {
+    height:100%;
+    justify-content:center;
+}
+
+.constPM {
+ background-image: url(images/PM_photo3.jpg);
+ background-size: cover;
+ height: 1200px;
+ max-width: 100%;
+ position:relative;
+}
+
+.introduction {
+    background-color:rgba(211,211,211,0.2);
+    color:black;
+    position:absolute;
+    top:20%;
+    left:20%;
+    transform:translate(-50%, -50%);
+    margin:0;
+    border-radius:20px;
+    overflow:hidden;
+    /*padding:100px;*/
+}
+
+main {
+    display:flex;
+    background-image: url(images/PM_photo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    max-width:100%;
+    height: auto;
+}
+
+
+#test{
+    display: flex;
+    background-color:red;
+    height: 1000px;
+
+}
+
+footer{
+    background-image:url(images/PM_photo1.jpg);
+    max-width:100%;
+    height:1200px;
+}
