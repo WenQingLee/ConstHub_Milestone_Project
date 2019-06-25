@@ -10,54 +10,75 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" </head>
 
+  <script src="https://kit.fontawesome.com/af4d281973.js"></script>
+
   <body>
-    <header class='container-fluid'>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
-        <a class="navbar-brand" href="#">ConstPM</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+      <a class="navbar-brand" href="#"><span class="fab fa-phoenix-framework"></span> ConstPM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Invest</a>
-            </li>
-            <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Invest</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Projects
                 </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Project 1</a>
-                <a class="dropdown-item" href="#">Project 2</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Upcoming Projects</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Project 1</a>
+              <a class="dropdown-item" href="#">Project 2</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Upcoming Projects</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class='container-fluid'>
       <div class='constPM'>
         <div class='row'>
           <div class='introduction col-md-3 col-sm-4 col-5'>
-            <h1>Managing projects easier and faster!</h1>
+            <h2>Manage projects easier and faster!</h2>
+            <p>Our integrated platform is designed to digitize your site processes. Access all info at any time from anywhere with real-time syncing. Get insights on operations from data captured and conduct analytics.</p>
+            <form action = "script url" method="POST">
+              <label for="name">Name</label>
+              <input type="text" name="name" value="name"/>
+              <label for="submit">Submit</label>
+              <input type="submit" name="submit" value="Submit" />
+            </form>
           </div>
-
         </div>
       </div>
     </header>
-    <main class="container-fluid">
-
-
-
-      <div id="test">
-        <p>testing background</p>
+    <main>
+      <div id="description">
+        <h1>ConstPM works in these easy steps</h1>
       </div>
+      <article class='container-fluid'>
+        <div class='row'>
+          <div class='features col-sm'>
+            <h3><span class="far fa-calendar-alt"></span> Plan</h3>
+            <p>The team collaborates and enters their knowledge into ConstPM</p>
+          </div>
+          <div class=' features col-sm'>
+            <h3><i class="fas fa-users-cog"></i> Collaborate</h3>
+            <p>The team collaborates and enters their knowledge into ConstPM</p>
+          </div>
+          <div class='features col-sm'>
+            <h3><span class="fas fa-tasks"></span> Manage</h3>
+          </div>
+        </div>
+      </article>
 
     </main>
 
