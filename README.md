@@ -62,7 +62,7 @@ Suggested to use a table format
 ## Features
 ---
 Form submission will check if the user inputs are in accordance with the form. 
-
+Carousel photos to be of 1920x1080 to accomodate displays
 
 ## Testing
 ---

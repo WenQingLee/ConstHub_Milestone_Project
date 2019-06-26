@@ -1,59 +1,96 @@
-.testimonials{
-    text-align:center;
-
+html, body,{
+    height:100%;
 }
 
 
-.round{
-    border-radius:100%;
-    height:150px;
-    
-    
+.navbar-custom{
+    background-color:#9be6ff !important;
 }
 
 
+.testimonials {
+    text-align: center;
+    padding:10px;
+    margin:10px;
+}
+
+
+.round {
+    border-radius: 100%;
+    height: 150px;
+
+
+}
+
+.carousel-item {
+    max-height: 700px;
+}
+
+.cta {
+    background-color: rgba(255, 165, 0, 0.6);
+}
+
+
+footer{
+    background-color:#9be6ff;
+}
+
+#logo,
+#contact-details,
+#subscribe {
+    /*height:100%;*/
+    text-align: center;
+    justify-content: center;
+    /*align-items:center;*/
+    /*vertical-align:middle;*/
+}
+
+a{
+    text-decoration:none;
+    font-size:16px;
+    
+}
 
 /*style for rollover social media icons*/
 
-.sm-icon ul li { 
-list-style-type: none; 
-border-bottom:none; 
-margin:0 auto; 
-background: none; 
-padding:0px; 
-line-height: 0!important; 
+#social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*vertical-align:middle;*/
 }
-.sm-icon li a { 
-margin:5px 3px 0px 0px !important; 
-padding:0px; 
-width:50px; 
-height:50px; 
-direction: ltr;
-text-indent:-99999px;
-float:left; 
-} 
 
-.sm-icon li a.facebook1 { 
-background: #314d91 url(images/social-icons.png) no-repeat 0px 0px; 
--webkit-transition:All 0.3s ease-out; 
+.facebook1 {
+    height: 50px;
+    width: 50px;
+    background: #314d91 url(images/social-icons.png) no-repeat 0px 0px;
+    -webkit-transition: All 0.3s ease-out;
 
-} 
-.sm-icon li a.facebook1:hover { 
-background: #314d91 url(images/social-icons.png) no-repeat 0px -73px; 
-} 
-.sm-icon li a.twitter1 { 
-background: #07beed url(images/social-icons.png) no-repeat 0px -127px; 
--webkit-transition:All 0.3s ease-out; 
+}
 
-} 
-.sm-icon li a.twitter1:hover { 
-background: #07beed url(images/social-icons.png) no-repeat 0px -204px; 
-} 
+.facebook1:hover {
+    background: #314d91 url(images/social-icons.png) no-repeat 0px -73px;
+}
 
-.sm-icon li a.linkdin1 { 
-background:#1698E3 url(images/social-icons.png) no-repeat 0px -635px; 
--webkit-transition:All 0.3s ease-out; 
-} 
-.sm-icon li a.linkdin1:hover { 
-background: #1698e3 url(images/social-icons.png) no-repeat 0px -711px; 
+.twitter1 {
+    height: 50px;
+    width: 50px;
+    background: #07beed url(images/social-icons.png) no-repeat 0px -127px;
+    -webkit-transition: All 0.3s ease-out;
+
+}
+
+.twitter1:hover {
+    background: #07beed url(images/social-icons.png) no-repeat 0px -204px;
+}
+
+.linkdin1 {
+    height: 50px;
+    width: 50px;
+    background: #1698E3 url(images/social-icons.png) no-repeat 0px -635px;
+    -webkit-transition: All 0.3s ease-out;
+}
+
+.linkdin1:hover {
+    background: #1698e3 url(images/social-icons.png) no-repeat 0px -711px;
 }
