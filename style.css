@@ -1,24 +1,28 @@
 html,
-body
-    {
+body {
     height: 100%;
     font-family: open-sans, san-serif;
 }
 
 
 .navbar-custom {
-    background-color:white !important;
+    background-color: white !important;
     /*background-color: rgba(255, 165, 0, 0.6) !important;*/
 }
 
 
+
 .testimonials {
     text-align: center;
-    padding: 50px 10px;
+    padding: 10px;
     /*margin: 10px;*/
     /*border:solid 1px black;*/
     /*max-width:2000px;*/
-    
+}
+
+
+.company-info{
+    overflow:hidden;
 }
 
 
@@ -31,21 +35,22 @@ body
 
 .carousel-item {
     max-height: 700px;
-    border-top:solid 1px grey;
-    border-bottom:solid 1px grey;
+    border-top: solid 1px grey;
+    border-bottom: solid 1px grey;
+    
 }
 
-.caption{
-    margin:0 auto;
+.caption {
+    margin: 0 auto;
     /*height:500px;*/
-    width:300px;
+    width: 300px;
 }
 
 .cta {
     /*max-width:200px;*/
-    color:white;
+    color: white;
     /*color:rgb(255, 233, 0);*/
-    background-color: rgba(255,69,0,0.8);
+    background-color: rgba(255, 69, 0, 0.8);
     /*background-color: rgba(77, 0, 255, 0.9);*/
     /*background-color: rgba(211, 211, 211, 0.9);*/
 }
@@ -126,17 +131,42 @@ a {
     background: #1698e3 url(images/social-icons.png) no-repeat 0px -711px;
 }
 
-#subscribe > a{
-    text-decoration:none;
-    font-size:20px;
-    color:black;
+#subscribe>a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
 }
 
-p{
-    font-family:roboto, san-serif;
+p {
+    font-family: roboto, san-serif;
 }
 
 
-.company-overview{
-    background-color:#F0A59B;
+.company-overview {
+    background-image:url(images/bg1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    color:white;
+}
+
+
+.services{
+    border:solid 1px black;
+    border-radius:10px;
+}
+
+
+#info-1{
+    /*transform:rotate3d(2,-1,0,-45deg);*/
+}
+
+#service-head{
+    /*background-color:#9be6ff;*/
+    background-image:url(images/banner-1.jpg);
+    text-align:center;
+}
+
+#premium, #basic, #free, #last{
+    /*background-color:green;*/
+    text-align:center;
 }
