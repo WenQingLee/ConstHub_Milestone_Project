@@ -10,7 +10,26 @@ body {
     /*background-color: rgba(255, 165, 0, 0.6) !important;*/
 }
 
+.nav-link{
+    font-size: 20px;
+}
 
+
+/*@media only screen and (max-width: 768px) {*/
+/*  .mob-hide {*/
+/*    display:none;*/
+/*  }*/
+/*}*/
+
+@media(max-width: 767px) {
+  .mob-hide {
+    display:none;
+  }
+  .carousel-caption{
+      top:25%;
+      bottom:auto;
+  }
+}
 
 .testimonials {
     text-align: center;
@@ -29,9 +48,8 @@ body {
 .round {
     border-radius: 100%;
     height: 150px;
-
-
 }
+
 
 .carousel-item {
     max-height: 700px;
@@ -40,10 +58,11 @@ body {
     
 }
 
-.caption {
-    margin: 0 auto;
-    /*height:500px;*/
-    width: 300px;
+.carousel-caption {
+    justify-content:center;
+    background-color:rgba(0,0,0,0.7) !important;
+    bottom:10%;
+    
 }
 
 .cta {
@@ -53,7 +72,14 @@ body {
     background-color: rgba(255, 69, 0, 0.8);
     /*background-color: rgba(77, 0, 255, 0.9);*/
     /*background-color: rgba(211, 211, 211, 0.9);*/
+    max-width:300px;
+   
 }
+
+/*.btn{*/
+/*    color:white;*/
+/*}*/
+
 
 
 footer {
@@ -63,15 +89,9 @@ footer {
 #logo,
 #contact-details,
 #subscribe {
-    /*display:flex;*/
-    /*height:100px;*/
     text-align: center;
     justify-content: center;
-    /*align-items:center;*/
-    /*vertical-align:middle;*/
-    /*border:solid 1px black;*/
 }
-
 
 
 a {

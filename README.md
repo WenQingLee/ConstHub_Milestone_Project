@@ -85,6 +85,7 @@ Written content in the website is fictional and written by me.
 * Animations and styles from Home and the Navbar were adapted from Codepen, an online code editor and open-source learning environment.
 * Diagrams and charts were taken from ("TBA")
 * Codrops? (Animated Image Columns)
+* FreeLogoDesign for company logo
 
 #### 3. Acknowledgements
 
