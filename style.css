@@ -188,10 +188,14 @@ p {
     height:100%;
 }
 
-.wrapper{
+.wrapper-1{
     background-color:rgba(0,0,0,0.5);
     /*padding-left:5%;*/
     /*max-width:400px;*/
+}
+
+.wrapper-2{
+    background-color:rgba(211, 211, 211, 0.5);
 }
 
 /*.col-4{*/
@@ -212,7 +216,7 @@ p {
 }
 
 .subheads{
-    color:purple;
+    /*color:purple;*/
     font-weight:bold;
     text-decoration:underline;
     padding:0px 50px;
@@ -221,4 +225,18 @@ p {
 
 .info-us{
     padding:0px 50px;
+}
+
+    /*.media{*/
+    /*    height:300px;*/
+    /*    overflow:hidden;*/
+    /*}*/
+
+.square{
+    height:150px;
+    border:solid black 1px;
+}
+
+.blue-font{
+    color:blue;
 }
