@@ -6,7 +6,7 @@ body {
 
 
 .navbar-custom {
-    background-color: white !important;
+    background-color: white;
     /*background-color: rgba(255, 165, 0, 0.6) !important;*/
 }
 
@@ -26,17 +26,26 @@ body {
     display:none;
   }
   .carousel-caption{
-      top:25%;
+      /*top:25%;*/
       bottom:auto;
+      background-color:transparent !important;
+      /*color:purple;*/
+      /*opacity:0%;*/
   }
+  #logo,
+#contact-details {
+    border-bottom:groove 1px;
+    border-color: #ffbb9b
+}
+#logo, #social-media{
+    padding:10px;
+}
+  
 }
 
 .testimonials {
     text-align: center;
     padding: 10px;
-    /*margin: 10px;*/
-    /*border:solid 1px black;*/
-    /*max-width:2000px;*/
 }
 
 
@@ -60,7 +69,7 @@ body {
 
 .carousel-caption {
     justify-content:center;
-    background-color:rgba(0,0,0,0.7) !important;
+    background-color:rgba(0,0,0,0.7);
     bottom:10%;
     
 }
@@ -76,19 +85,12 @@ body {
    
 }
 
-/*.btn{*/
-/*    color:white;*/
-/*}*/
-
-
-
 footer {
     background-color: #9be6ff;
 }
 
 #logo,
-#contact-details,
-#subscribe {
+#contact-details {
     text-align: center;
     justify-content: center;
 }
@@ -175,10 +177,6 @@ p {
     border-radius:10px;
 }
 
-
-#info-1{
-    /*transform:rotate3d(2,-1,0,-45deg);*/
-}
 
 #service-head{
     /*background-color:#9be6ff;*/
