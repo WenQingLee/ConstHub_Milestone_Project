@@ -10,28 +10,29 @@ body {
 
 }
 
-.nav-link{
+.nav-link {
     font-size: 20px;
 }
 
 
 @media(max-width: 767px) {
-  .mob-hide {
-    display:none;
-  }
-  .carousel-caption{
-      bottom:auto;
-      background-color:transparent !important;
-  }
-  #logo,
-#contact-details {
-    border-bottom:groove 1px;
-    border-color: #ffbb9b
-}
-#logo, #social-media{
-    padding:10px;
-}
-  
+    .mob-hide {
+        display: none;
+    }
+    .carousel-caption {
+        bottom: auto;
+        /*background-color:transparent !important;*/
+    }
+    #logo,
+    #contact-details {
+        border-bottom: groove 1px;
+        border-color: #ffbb9b
+    }
+    #logo,
+    #social-media {
+        padding: 10px;
+    }
+
 }
 
 .testimonials {
@@ -49,21 +50,21 @@ body {
     max-height: 700px;
     border-top: solid 1px grey;
     border-bottom: solid 1px grey;
-    
+
 }
 
 .carousel-caption {
-    justify-content:center;
-    background-color:rgba(0,0,0,0.7);
-    bottom:10%;
-    
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 10%;
+
 }
 
 .cta {
     color: white;
     background-color: rgba(255, 69, 0, 0.8);
-    max-width:300px;
-   
+    max-width: 300px;
+
 }
 
 footer {
@@ -133,7 +134,11 @@ a {
 }
 
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: open-sans, san-serif;
 }
 
@@ -143,134 +148,139 @@ p {
 }
 
 
-/*Styling for about-us.html*/
+/*Additional styling for about-us.html*/
 
 .company-overview {
-    background-image:url(images/bg1.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    color:white;
-    height:400px;
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
 }
 
-.challenge{
-    background-image:url(images/about-us.jpg);
-    min-height:300px;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
-    
-}
+.challenge {
+    background-image: url(images/about-us.jpg);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 
-
-.row{
-    height:100%;
-}
-
-.wrapper-1{
-    background-color:rgba(0,0,0,0.5);
-}
-
-.wrapper-2{
-    background-color:rgba(211, 211, 211, 0.5);
 }
 
 
-.subheads{
-    font-weight:bold;
-    text-decoration:underline;
-    padding:10px;
+.row {
+    height: 100%;
 }
 
-.info-us{
-    padding:0px 50px;
+.wrapper-1 {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.square{
-    height:150px;
-    border:solid black 1px;
-}
-
-.blue-font{
-    color:blue;
+.wrapper-2 {
+    background-color: rgba(211, 211, 211, 0.5);
 }
 
 
-/*Our Services*/
-
-#service-head{
-    background-image:url(images/our-services.jpg);
-    text-align:center;
-    height:250px;
+.subheads {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
 }
 
-#service-intro{
-    background-color:rgba(211, 211, 211, 0.5);
-    text-align:center;
-    padding:20px;
+.info-us {
+    padding: 0px 50px;
+}
+
+.square {
+    height: 150px;
+    border: solid black 1px;
+}
+
+.blue-font {
+    color: blue;
+}
+
+
+/*Additional styling for Our Services*/
+
+#service-head {
+    background-image: url(images/our-services.jpg);
+    text-align: center;
+    height: 250px;
+}
+
+#service-intro {
+    background-color: rgba(211, 211, 211, 0.5);
+    text-align: center;
+    padding: 20px;
 }
 
 
 
-.sub-plan{
-    padding:20px;
+.sub-plan {
+    padding: 20px;
 }
 
-.sub-center{
-    text-align:center;
+.sub-center {
+    text-align: center;
     font-weight: 600;
-    margin:0px;
-    padding:10px;
-    border-bottom:solid black 1px;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: solid black 1px;
 }
 
-.services{
-    border:solid 1px black;
-    border-radius:10px;
+.services {
+    border: solid 1px black;
+    border-radius: 10px;
 }
 
-.price{
+.price {
     font-weight: 600;
     color: #00aff0;
-    text-align:center;
-    padding:10px;
+    text-align: center;
+    padding: 10px;
 }
 
-.list-center{
-    text-align:center;
-    justify-content:center;
+.list-center {
+    text-align: center;
+    justify-content: center;
 }
 
 
-/*Styling for Contact Us*/
+/*Additional Styling for Contact Us*/
 
-.contact-us{
-    margin:50px 0px;
+.contact-us {
+    margin: 50px 0px;
 }
 
 .contact-info {
     text-align: center;
-    background-color:black;
-    color:white;
-    min-height:250px;
-    
+    background-color: black;
+    color: white;
+    min-height: 250px;
+
 }
 
-.add-icon{
+.add-icon {
     font-size: 48px;
-  color: #fda40b;
+    color: #fda40b;
 }
 
-.addbr{
-    margin:10px 0px;
+.addbr {
+    margin: 10px 0px;
 }
 
-#textarea-size{
-    width:100%;
-    height:120px;
+#textarea-size {
+    width: 100%;
+    height: 120px;
 }
 
-.contact-map{
-    text-align:center;
-    margin-bottom:10px;
+.btn-center {
+    text-align: center;
+    height: 50px;
+}
+
+.contact-map {
+    text-align: center;
+    margin-bottom: 10px;
 }
