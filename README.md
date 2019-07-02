@@ -66,8 +66,8 @@ Carousel photos to be of 1920x1080 to accomodate displays
 
 ## Testing
 ---
-W3C Markup Validation Service
-W3C CSS Validation Service
+W3C Markup Validation Service/HTMLHint
+W3C CSS Validation Service/CSSLint
 
 
 ## Deployment

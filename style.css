@@ -7,7 +7,7 @@ body {
 
 .navbar-custom {
     background-color: white;
-    /*background-color: rgba(255, 165, 0, 0.6) !important;*/
+
 }
 
 .nav-link{
@@ -15,21 +15,13 @@ body {
 }
 
 
-/*@media only screen and (max-width: 768px) {*/
-/*  .mob-hide {*/
-/*  }*/
-/*}*/
-
 @media(max-width: 767px) {
   .mob-hide {
     display:none;
   }
   .carousel-caption{
-      /*top:25%;*/
       bottom:auto;
       background-color:transparent !important;
-      /*color:purple;*/
-      /*opacity:0%;*/
   }
   #logo,
 #contact-details {
@@ -68,12 +60,8 @@ body {
 }
 
 .cta {
-    /*max-width:200px;*/
     color: white;
-    /*color:rgb(255, 233, 0);*/
     background-color: rgba(255, 69, 0, 0.8);
-    /*background-color: rgba(77, 0, 255, 0.9);*/
-    /*background-color: rgba(211, 211, 211, 0.9);*/
     max-width:300px;
    
 }
@@ -98,11 +86,9 @@ a {
 /*style for rollover social media icons*/
 
 #social-media {
-    /*height:100px;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /*vertical-align:middle;*/
 }
 
 .facebook1 {
@@ -170,7 +156,6 @@ p {
 .challenge{
     background-image:url(images/about-us.jpg);
     min-height:300px;
-    /*width:300px;*/
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
@@ -184,35 +169,17 @@ p {
 
 .wrapper-1{
     background-color:rgba(0,0,0,0.5);
-    /*padding-left:5%;*/
-    /*max-width:400px;*/
 }
 
 .wrapper-2{
     background-color:rgba(211, 211, 211, 0.5);
 }
 
-/*.col-4{*/
-/*    height:100%;*/
-/*}*/
-
-
-/*.about-us{*/
-/*    height:100%;*/
-/*}*/
-
-/*.center-image{*/
-/*    text-align:center;*/
-/*}*/
-
 
 .subheads{
-    /*color:purple;*/
     font-weight:bold;
     text-decoration:underline;
     padding:10px;
-    /*padding:0px 50px;*/
-    /*text-transform:uppercase;*/
 }
 
 .info-us{
@@ -232,7 +199,6 @@ p {
 /*Our Services*/
 
 #service-head{
-    /*background-color:#9be6ff;*/
     background-image:url(images/our-services.jpg);
     text-align:center;
     height:250px;
@@ -245,7 +211,6 @@ p {
 }
 
 
-/*Styling for Subscription-plan*/
 
 .sub-plan{
     padding:20px;
@@ -257,7 +222,6 @@ p {
     margin:0px;
     padding:10px;
     border-bottom:solid black 1px;
-    /*color: #888;*/
 }
 
 .services{
@@ -273,7 +237,6 @@ p {
 }
 
 .list-center{
-    /*color: #00aff0;*/
     text-align:center;
     justify-content:center;
 }
