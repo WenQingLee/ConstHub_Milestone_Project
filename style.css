@@ -17,7 +17,6 @@ body {
 
 /*@media only screen and (max-width: 768px) {*/
 /*  .mob-hide {*/
-/*    display:none;*/
 /*  }*/
 /*}*/
 
@@ -147,16 +146,18 @@ a {
     background: #1698e3 url(images/social-icons.png) no-repeat 0px -711px;
 }
 
-#subscribe>a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
+
+h1, h2, h3, h4, h5 {
+    font-family: open-sans, san-serif;
 }
+
 
 p {
-    font-family: roboto, san-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
+
+/*Styling for about-us.html*/
 
 .company-overview {
     background-image:url(images/bg1.jpg);
@@ -167,22 +168,9 @@ p {
 }
 
 
-.services{
-    border:solid 1px black;
-    border-radius:10px;
-}
 
 
-#service-head{
-    /*background-color:#9be6ff;*/
-    background-image:url(images/banner-1.jpg);
-    text-align:center;
-}
 
-#premium, #basic, #free, #last{
-    /*background-color:green;*/
-    text-align:center;
-}
 
 .row{
     height:100%;
@@ -240,3 +228,54 @@ p {
 .blue-font{
     color:blue;
 }
+
+
+/*Our Services*/
+
+#service-head{
+    /*background-color:#9be6ff;*/
+    background-image:url(images/our-services.jpg);
+    text-align:center;
+    height:250px;
+}
+
+#service-intro{
+    background-color:rgba(211, 211, 211, 0.5);
+    text-align:center;
+    padding:20px;
+}
+
+
+/*Styling for Subscription-plan*/
+
+.sub-plan{
+    padding:20px;
+}
+
+.sub-center{
+    text-align:center;
+    font-weight: 600;
+    margin:0px;
+    padding:10px;
+    border-bottom:solid black 1px;
+    /*color: #888;*/
+}
+
+.services{
+    border:solid 1px black;
+    border-radius:10px;
+}
+
+.price{
+    font-weight: 600;
+    color: #00aff0;
+    text-align:center;
+    padding:10px;
+}
+
+.list-center{
+    /*color: #00aff0;*/
+    text-align:center;
+    justify-content:center;
+}
+

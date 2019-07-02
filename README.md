@@ -83,6 +83,8 @@ Written content in the website is fictional and written by me.
 * Photos were taken from Pexels, a stock image library.
 * Fonts and icons were taken from FontAwesome,
 * Animations and styles from Home and the Navbar were adapted from Codepen, an online code editor and open-source learning environment.
+* Rollover Social Media Icons: https://codepen.io/JunaidKhalid/pen/NxaZJw
+* Sass Responsive Subscription Plans: https://codepen.io/JohnUberbacher/pen/rjNvvY  
 * Diagrams and charts were taken from ("TBA")
 * Codrops? (Animated Image Columns)
 * FreeLogoDesign for company logo
